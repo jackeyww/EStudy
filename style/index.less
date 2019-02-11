@@ -1,0 +1,169 @@
+@charset "UTF-8";
+@num:75rem;
+
+	.head{
+		width: 100%;
+		height: 90/@num;
+		background: #4DA0E6;
+		position: fixed;
+		display: flex;
+		justify-content: center;
+		align-items:center;
+		z-index: 10;
+
+		.title{
+			font-size: 32/@num;
+			color: #fff;
+		}
+		a{
+			width: 40/@num;
+			height: 40/@num;
+			position: absolute;
+			display: flex;
+			align-items:center;
+
+			img{
+				width: 100%;
+			}
+		}
+		.tips{
+			right: 90/@num;
+		}
+		.search{
+			right: 20/@num;
+		}
+	}
+
+	.banner{
+		width: 100%;
+		height: 300/@num;
+		padding-top: 90/@num;
+
+		.swiper-container{
+			width: 100%;
+			height: 100%;
+		}
+
+		.swiper-slide{
+
+			a{
+				width: 100%;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items:center;
+
+				img{
+					width: 100%;
+				}
+			}
+		}
+		.swiper-pagination {
+			bottom: -10/@num !important;
+		}
+		.swiper-pagination-bullet{
+			width: 10/@num;
+			height: 10/@num;
+			margin-left: 10/@num !important;
+			background: #fff;
+			opacity: 1;
+		}
+		.swiper-pagination-bullet-active{
+			background: #007aff;
+		}
+	}
+
+	.tagMenu{
+		width: 100%;
+		height: 90/@num;
+		background: #F0F0F0;
+		display: flex;
+		justify-content: center;
+		align-items:center;
+		border-bottom: 1px solid #bbb;
+
+		.check{
+			color: #4DA0E6;
+		}
+		li{
+			font-size: 32/@num;
+			width: 33%;
+			text-align: center;
+			color: #333;
+		}
+		li:nth-child(2){
+			border-left: 1px solid #DEDEDE;
+			border-right: 1px solid #DEDEDE;
+		}
+	}
+
+	.allLessons{
+		width: 100%;
+		display: inline-block;
+
+		li{
+			width: 100%;
+			display: none;
+
+			.lessonCard{
+				width: 100%;
+				height: 215/@num;
+				position: relative;
+				display: flex;
+				justify-content: center;
+				align-items:center;
+				border-bottom: 1px solid #ddd;
+				
+				a{
+					position: absolute;
+					z-index: 2;
+					width: 100%;
+					height: 100%;
+				}
+				.image{
+					width:285/@num;
+					height: 160/@num;
+					margin-right: 20/@num;
+
+					img{
+						width: 100%;
+					} 
+				}
+				.word{
+					width: 380/@num;
+					height: 140/@num;
+					position: relative;
+
+					.title{
+						font-size: 30/@num;
+						color: #333;
+						font-weight: 600;
+					}
+					.time{
+						font-size: 26/@num;
+						color: #999;
+						position: absolute;
+						bottom: 0px;
+
+						.vistor{
+							width: 24/@num;
+							height: 24/@num;
+							background: url(../image/vistornum.png) no-repeat;
+							background-size: contain;
+						}
+						.hour{
+							width: 24/@num;
+							height: 24/@num;
+							background: url(../image/time.png) no-repeat;
+							background-size: contain; 
+							margin-left: 40/@num;
+						}
+					}
+				}
+			}
+		}
+		.active{
+			display: block;
+		}
+	}
+	

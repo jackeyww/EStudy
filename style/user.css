@@ -1,0 +1,76 @@
+@charset "UTF-8";
+body {
+  background: #ececec;
+}
+.head {
+  width: 100%;
+  height: 4.26666667rem;
+  background: #4da0e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.head .image {
+  width: 1.73333333rem;
+  height: 1.73333333rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.26666667rem;
+}
+.head .image img {
+  width: 100%;
+}
+.head span {
+  font-size: 0.45333333rem;
+  color: #fff;
+  margin-bottom: 0.26666667rem;
+}
+.head .login {
+  font-size: 0.32rem;
+  color: #fff;
+  background: #fb8700;
+  width: 1.33333333rem;
+  height: 0.53333333rem;
+  text-align: center;
+  line-height: 0.53333333rem;
+  border-radius: 0.10666667rem;
+}
+.userlist {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.userlist li {
+  width: 100%;
+  height: 1.2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin-top: 0.33333333rem;
+  border-bottom: 1px solid #dedede;
+  border-top: 1px solid #dedede;
+}
+.userlist li a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.userlist li img {
+  margin-left: 0.26666667rem;
+  margin-right: 0.53333333rem;
+}
+.userlist li span {
+  font-size: 0.42666667rem;
+  color: #999;
+}
+.userlist li i {
+  position: absolute;
+  width: 0.18666667rem;
+  height: 0.34666667rem;
+  background: url(../image/next.png) no-repeat;
+  background-size: contain;
+  right: 0.26666667rem;
+}

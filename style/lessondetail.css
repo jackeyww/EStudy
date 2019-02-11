@@ -1,0 +1,340 @@
+@charset "UTF-8";
+.topMenu {
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+  height: 1.33333333rem;
+  background: rgba(45, 39, 47, 0.5);
+  display: flex;
+  align-items: center;
+}
+.topMenu .back {
+  font-size: 0.56rem;
+  color: #fff;
+  width: 1.06666667rem;
+  text-align: center;
+  height: 100%;
+  line-height: 1.33333333rem;
+}
+.topMenu .title {
+  font-size: 0.45333333rem;
+  width: 4.53333333rem;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.topMenu .download {
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  background: url(../image/download.png) no-repeat;
+  background-size: contain;
+  margin-left: 1.6rem;
+}
+.topMenu .love {
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  background: url(../image/love.png) no-repeat;
+  background-size: contain;
+  margin-left: 0.53333333rem;
+}
+.topMenu .menu {
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  background: url(../image/menu.png) no-repeat center;
+  background-size: contain;
+  margin-left: 0.53333333rem;
+}
+.banner {
+  width: 100%;
+  height: 5.33333333rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.banner img {
+  width: 100%;
+}
+.switchMenu {
+  width: 100%;
+  height: 1.2rem;
+  background: #F0F0F0;
+  display: flex;
+}
+.switchMenu span {
+  width: 34%;
+  text-align: center;
+  color: #333;
+  font-size: 0.42666667rem;
+  line-height: 1.2rem;
+  box-sizing: border-box;
+}
+.switchMenu .check {
+  color: #64ACE9;
+  background: #fff;
+  border-bottom: 2px solid #64ACE9;
+}
+.switchItem {
+  width: 100%;
+  display: inline-block;
+}
+.switchItem li {
+  display: none;
+}
+.switchItem .detail {
+  width: 100%;
+  display: block;
+}
+.switchItem .detail .title {
+  font-size: 0.48rem;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  text-indent: 0.2rem;
+  border-bottom: 1px solid #e6e4e4;
+}
+.switchItem .detail .teacherwrap {
+  width: 100%;
+  height: 3.46666667rem;
+}
+.switchItem .detail .teacherwrap .title1 {
+  font-size: 0.42666667rem;
+  margin-left: 0.26666667rem;
+}
+.switchItem .detail .teacherwrap .teacher {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #e6e4e4;
+}
+.switchItem .detail .teacherwrap .teacher li {
+  position: relative;
+  width: 50%;
+  height: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.switchItem .detail .teacherwrap .teacher li .image {
+  width: 1.46666667rem;
+  height: 1.46666667rem;
+  border-radius: 50%;
+  margin-right: 0.26666667rem;
+}
+.switchItem .detail .teacherwrap .teacher li .image img {
+  width: 100%;
+}
+.switchItem .detail .teacherwrap .teacher li .word {
+  width: 2.66666667rem;
+  height: 1.06666667rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.switchItem .detail .teacherwrap .teacher li .word p {
+  font-size: 0.42666667rem;
+}
+.switchItem .detail .teacherwrap .teacher li .word span {
+  font-size: 0.32rem;
+  color: #999;
+}
+.switchItem .detail .teacherwrap .teacher li:first-child:after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 1.06666667rem;
+  background: #d3d3d3;
+  right: 0.13333333rem;
+}
+.switchItem .detail .lesson {
+  width: 100%;
+  padding-bottom: 1.33333333rem;
+  border-bottom: 1px solid #e6e4e4;
+}
+.switchItem .detail .lesson .title1 {
+  font-size: 0.42666667rem;
+  margin-left: 0.26666667rem;
+}
+.switchItem .detail .lesson p {
+  font-size: 0.18666667rem;
+  color: #999;
+  width: 95%;
+  margin: 0px auto;
+  margin-top: 0.26666667rem;
+}
+.switchItem .detail .students {
+  width: 100%;
+  border-bottom: 1px solid #e6e4e4;
+}
+.switchItem .detail .students .title1 {
+  font-size: 0.42666667rem;
+  margin-left: 0.26666667rem;
+}
+.switchItem .detail .students ul {
+  width: 100%;
+  display: flex;
+  height: 2.66666667rem;
+  align-items: center;
+}
+.switchItem .detail .students ul li {
+  width: 20%;
+  height: 1.86666667rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.switchItem .detail .students ul li a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.switchItem .detail .students ul li div {
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+  border-radius: 50%;
+}
+.switchItem .detail .students ul li div img {
+  width: 100%;
+}
+.switchItem .detail .students ul li span {
+  font-size: 0.42666667rem;
+}
+.switchItem .detail .students .more {
+  width: 100%;
+  height: 0.93333333rem;
+  display: flex;
+  justify-content: center;
+}
+.switchItem .detail .students .more img {
+  height: 0.34666667rem;
+  width: 0.4rem;
+}
+.recommend {
+  width: 100%;
+}
+.recommend .title1 {
+  font-size: 0.42666667rem;
+  margin-left: 0.26666667rem;
+}
+.allLessons {
+  width: 100%;
+  display: inline-block;
+}
+.allLessons li {
+  width: 100%;
+  display: none;
+}
+.allLessons li .lessonCard {
+  width: 100%;
+  height: 2.86666667rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+.allLessons li .lessonCard a {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+.allLessons li .lessonCard .image {
+  width: 3.8rem;
+  height: 2.13333333rem;
+  margin-right: 0.26666667rem;
+}
+.allLessons li .lessonCard .image img {
+  width: 100%;
+}
+.allLessons li .lessonCard .word {
+  width: 5.06666667rem;
+  height: 1.86666667rem;
+  position: relative;
+}
+.allLessons li .lessonCard .word .title {
+  font-size: 0.4rem;
+  color: #333;
+  font-weight: 600;
+}
+.allLessons li .lessonCard .word .time {
+  font-size: 0.34666667rem;
+  color: #999;
+  position: absolute;
+  bottom: 0px;
+}
+.allLessons li .lessonCard .word .time .vistor {
+  width: 0.32rem;
+  height: 0.32rem;
+  background: url(../image/vistornum.png) no-repeat;
+  background-size: contain;
+}
+.allLessons li .lessonCard .word .time .hour {
+  width: 0.32rem;
+  height: 0.32rem;
+  background: url(../image/time.png) no-repeat;
+  background-size: contain;
+  margin-left: 0.53333333rem;
+}
+.allLessons .active {
+  display: block;
+}
+.communicate p {
+  font-size: 0.42666667rem;
+}
+.chapter {
+  width: 100%;
+}
+.chapter .title {
+  font-size: 0.48rem;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  text-indent: 0.2rem;
+  border-bottom: 1px solid #e6e4e4;
+}
+.chapter ul {
+  display: inline-block;
+  width: 100%;
+}
+.chapter ul li {
+  width: 100%;
+  height: 1.33333333rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chapter ul li i {
+  width: 0px;
+  height: 0px;
+  border-left: 0.2rem solid #666;
+  border-top: 0.13333333rem solid transparent;
+  border-bottom: 0.13333333rem solid transparent;
+  margin-left: 0.93333333rem;
+}
+.chapter ul li div {
+  width: 8.2rem;
+  height: 100%;
+  line-height: 1.33333333rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6e4e4;
+}
+.chapter ul li span {
+  font-size: 0.4rem;
+}
+.chapter ul li .time {
+  margin-right: 0.26666667rem;
+}
+.chapter ul .choice {
+  color: #4DA0E6;
+}
+.chapter ul .choice i {
+  width: 0px;
+  height: 0px;
+  border-left: 0.2rem solid #4DA0E6;
+  border-top: 0.13333333rem solid transparent;
+  border-bottom: 0.13333333rem solid transparent;
+  margin-left: 0.93333333rem;
+}

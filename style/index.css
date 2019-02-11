@@ -1,0 +1,148 @@
+@charset "UTF-8";
+.head {
+  width: 100%;
+  height: 1.2rem;
+  background: #4DA0E6;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.head .title {
+  font-size: 0.42666667rem;
+  color: #fff;
+}
+.head a {
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.head a img {
+  width: 100%;
+}
+.head .tips {
+  right: 1.2rem;
+}
+.head .search {
+  right: 0.26666667rem;
+}
+.banner {
+  width: 100%;
+  height: 4rem;
+  padding-top: 1.2rem;
+}
+.banner .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.banner .swiper-slide a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .swiper-slide a img {
+  width: 100%;
+}
+.banner .swiper-pagination {
+  bottom: -0.13333333rem !important;
+}
+.banner .swiper-pagination-bullet {
+  width: 0.13333333rem;
+  height: 0.13333333rem;
+  margin-left: 0.13333333rem !important;
+  background: #fff;
+  opacity: 1;
+}
+.banner .swiper-pagination-bullet-active {
+  background: #007aff;
+}
+.tagMenu {
+  width: 100%;
+  height: 1.2rem;
+  background: #F0F0F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #bbb;
+}
+.tagMenu .check {
+  color: #4DA0E6;
+}
+.tagMenu li {
+  font-size: 0.42666667rem;
+  width: 33%;
+  text-align: center;
+  color: #333;
+}
+.tagMenu li:nth-child(2) {
+  border-left: 1px solid #DEDEDE;
+  border-right: 1px solid #DEDEDE;
+}
+.allLessons {
+  width: 100%;
+  display: inline-block;
+}
+.allLessons li {
+  width: 100%;
+  display: none;
+}
+.allLessons li .lessonCard {
+  width: 100%;
+  height: 2.86666667rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+.allLessons li .lessonCard a {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+.allLessons li .lessonCard .image {
+  width: 3.8rem;
+  height: 2.13333333rem;
+  margin-right: 0.26666667rem;
+}
+.allLessons li .lessonCard .image img {
+  width: 100%;
+}
+.allLessons li .lessonCard .word {
+  width: 5.06666667rem;
+  height: 1.86666667rem;
+  position: relative;
+}
+.allLessons li .lessonCard .word .title {
+  font-size: 0.4rem;
+  color: #333;
+  font-weight: 600;
+}
+.allLessons li .lessonCard .word .time {
+  font-size: 0.34666667rem;
+  color: #999;
+  position: absolute;
+  bottom: 0px;
+}
+.allLessons li .lessonCard .word .time .vistor {
+  width: 0.32rem;
+  height: 0.32rem;
+  background: url(../image/vistornum.png) no-repeat;
+  background-size: contain;
+}
+.allLessons li .lessonCard .word .time .hour {
+  width: 0.32rem;
+  height: 0.32rem;
+  background: url(../image/time.png) no-repeat;
+  background-size: contain;
+  margin-left: 0.53333333rem;
+}
+.allLessons .active {
+  display: block;
+}

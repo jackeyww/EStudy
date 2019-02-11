@@ -1,0 +1,376 @@
+@charset "UTF-8";
+@num:75rem;
+
+	.topMenu{
+		width: 100%;
+		position: fixed;
+		z-index: 20;
+		height: 100/@num;
+		background: rgba(45, 39, 47, 0.5);
+		display: flex;
+		align-items:center;
+
+		.back{
+			font-size: 42/@num;
+			color: #fff;
+			width: 80/@num;
+			text-align: center;
+			height: 100%;
+			line-height: 100/@num;
+		}
+		.title{
+			font-size: 34/@num;
+			width: 340/@num;
+			color: #fff;
+			overflow : hidden;
+		    text-overflow: ellipsis;
+		    display: -webkit-box;
+		    -webkit-line-clamp: 1;
+		    -webkit-box-orient: vertical;
+		}
+		.download{
+			width: 40/@num;
+			height: 40/@num;
+			background: url(../image/download.png) no-repeat;
+			background-size: contain;
+			margin-left: 120/@num;
+		}
+		.love{
+			width: 40/@num;
+			height: 40/@num;
+			background: url(../image/love.png) no-repeat;
+			background-size: contain;
+			margin-left: 40/@num;
+		}
+		.menu{
+			width: 40/@num;
+			height: 40/@num;
+			background: url(../image/menu.png) no-repeat center;
+			background-size: contain;
+			margin-left: 40/@num;
+		}
+	}
+
+	.banner{
+		width: 100%;
+		height: 400/@num;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+
+		img{
+			width: 100%;
+		}
+	}
+
+	.switchMenu{
+		width: 100%;
+		height: 90/@num;
+		background: #F0F0F0;
+		display: flex;
+
+		span{
+			width: 34%;
+			text-align: center;
+			color: #333;
+			font-size: 32/@num;
+			line-height: 90/@num;
+			box-sizing: border-box;
+		}
+		.check{
+			color: #64ACE9;
+			background: #fff;
+			border-bottom: 2px solid #64ACE9;
+		}
+	}
+
+	.switchItem{
+		width: 100%;
+		display: inline-block;
+		
+		li{
+			display: none;
+		}
+		.detail{
+			width: 100%;
+			display: block;
+			.title{
+				font-size: 36/@num;
+				height: 80/@num;
+				line-height: 80/@num;
+				text-indent: 0.2rem;
+				border-bottom: 1px solid #e6e4e4;
+			}
+
+			.teacherwrap{
+				width: 100%;
+				height: 260/@num;
+				
+
+				.title1{
+					font-size: 32/@num;
+					margin-left: 20/@num;
+				}
+
+				.teacher{
+					width: 100%;
+					display: flex;
+					border-bottom: 1px solid #e6e4e4;
+
+					li{
+						position: relative;
+						width: 50%;
+						height: 180/@num;
+						display: flex;
+						justify-content: center;
+						align-items:center;
+
+						.image{
+							width: 110/@num;
+							height: 110/@num;
+							border-radius: 50%;
+							margin-right: 20/@num;
+
+							img{
+								width: 100%;
+							}
+						}
+						.word{
+							width: 200/@num;
+							height: 80/@num;
+							display: flex;
+							flex-direction:column;
+							justify-content: space-between;
+							p{
+								font-size: 32/@num;
+							}
+							span{
+								font-size: 24/@num;
+								color: #999;
+							}
+						}
+					}
+					li:first-child:after{
+						position: absolute;
+						content: "";
+						width: 1px;
+						height: 80/@num;
+						background: #d3d3d3;
+						right: 10/@num;
+					}
+				}
+			}
+
+			.lesson{
+					width: 100%;
+					padding-bottom: 100/@num;
+					border-bottom: 1px solid #e6e4e4;
+
+					.title1{
+						font-size: 32/@num;
+						margin-left: 20/@num;
+					}
+					p{
+						font-size: 14/@num;
+						color: #999;
+						width: 95%;
+						margin: 0px auto;
+						margin-top: 20/@num;
+					}
+				}
+			.students{
+				width: 100%;
+				border-bottom: 1px solid #e6e4e4;
+
+				.title1{
+					font-size: 32/@num;
+					margin-left: 20/@num;
+				}
+				ul{
+					width: 100%;
+					display: flex;
+					height: 200/@num;
+					align-items:center;
+					
+					li{
+						width: 20%;
+						height: 140/@num;
+						position: relative;
+						display: flex;
+						flex-direction:column;
+						justify-content: space-between;
+						align-items:center;
+
+						a{
+							position: absolute;
+							width: 100%;
+							height: 100%;
+						}
+						div{
+							width: 80/@num;
+							height: 80/@num;
+							border-radius: 50%;
+
+							img{
+								width: 100%;
+							}
+						}
+						span{
+							font-size: 32/@num;
+						}
+					}
+				}
+				.more{
+					width: 100%;
+					height: 70/@num;
+					display: flex;
+					justify-content: center;
+
+					img{
+						height: 26/@num;
+						width: 30/@num;
+					}
+				}
+			}
+		}
+	}
+
+	.recommend{
+		width: 100%;
+
+		.title1{
+			font-size: 32/@num;
+			margin-left: 20/@num;
+		}
+	}
+	.allLessons{
+		width: 100%;
+		display: inline-block;
+
+		li{
+			width: 100%;
+			display: none;
+
+			.lessonCard{
+				width: 100%;
+				height: 215/@num;
+				position: relative;
+				display: flex;
+				justify-content: center;
+				align-items:center;
+				border-bottom: 1px solid #ddd;
+				
+				a{
+					position: absolute;
+					z-index: 2;
+					width: 100%;
+					height: 100%;
+				}
+				.image{
+					width:285/@num;
+					height: 160/@num;
+					margin-right: 20/@num;
+
+					img{
+						width: 100%;
+					} 
+				}
+				.word{
+					width: 380/@num;
+					height: 140/@num;
+					position: relative;
+
+					.title{
+						font-size: 30/@num;
+						color: #333;
+						font-weight: 600;
+					}
+					.time{
+						font-size: 26/@num;
+						color: #999;
+						position: absolute;
+						bottom: 0px;
+
+						.vistor{
+							width: 24/@num;
+							height: 24/@num;
+							background: url(../image/vistornum.png) no-repeat;
+							background-size: contain;
+						}
+						.hour{
+							width: 24/@num;
+							height: 24/@num;
+							background: url(../image/time.png) no-repeat;
+							background-size: contain; 
+							margin-left: 40/@num;
+						}
+					}
+				}
+			}
+		}
+		.active{
+			display: block;
+		}
+	}
+
+	.communicate{
+		p{font-size: 32/@num;}
+	}
+	.chapter{
+		width: 100%;
+
+		.title{
+			font-size: 36/@num;
+			height: 80/@num;
+			line-height: 80/@num;
+			text-indent: 0.2rem;
+			border-bottom: 1px solid #e6e4e4;
+		}
+		ul{
+			display: inline-block;
+			width: 100%;
+
+			li{
+				width: 100%;
+				height: 100/@num;
+				display: flex;
+				align-items:center;
+				justify-content: space-between;
+				
+				i{
+					width: 0px;
+					height: 0px;
+					border-left: 15/@num solid #666;
+					border-top: 10/@num solid transparent;
+					border-bottom: 10/@num solid transparent;
+					margin-left: 70/@num;
+				}
+				div{
+					width: 615/@num;
+					height: 100%;
+					line-height: 100/@num;
+					display: flex;
+					justify-content: space-between;
+					border-bottom: 1px solid #e6e4e4;
+				}
+				span{
+					font-size: 30/@num;
+				}
+				.time{
+					margin-right: 20/@num;
+				}
+			}
+			.choice{
+				color: #4DA0E6;
+
+				i{
+					width: 0px;
+					height: 0px;
+					border-left: 15/@num solid #4DA0E6;
+					border-top: 10/@num solid transparent;
+					border-bottom: 10/@num solid transparent;
+					margin-left: 70/@num;
+				}
+			}
+		}
+	}
