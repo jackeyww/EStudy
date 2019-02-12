@@ -1,0 +1,300 @@
+@charset "UTF-8";
+.jump {
+  height: 1.33333333rem;
+  font-size: 0.34666667rem;
+  color: #333;
+  display: flex;
+  flex-direction: row-reverse;
+  line-height: 1.33333333rem;
+}
+.jump a {
+  float: right;
+  font-size: 0.4rem;
+  color: #4DA0E6;
+  padding-right: 0.26666667rem;
+  padding-left: 0.13333333rem;
+}
+.logo {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo .logo1 {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.26666667rem;
+}
+.logo .logo2 {
+  width: 2rem;
+}
+.wrapAll {
+  position: absolute;
+  width: 100%;
+  height: 8rem;
+  bottom: 0px;
+}
+.wrapAll .cloud1 {
+  width: 1.21333333rem;
+  position: absolute;
+  right: 1.06666667rem;
+  animation: cloud1 10s linear infinite;
+}
+.wrapAll .cloud2 {
+  width: 1.61333333rem;
+  position: absolute;
+  left: 1.33333333rem;
+  top: 1.33333333rem;
+  animation: cloud2 12s linear infinite;
+}
+.wrapAll .cloud3 {
+  width: 0.77333333rem;
+  position: absolute;
+  left: 4rem;
+  top: 2.66666667rem;
+  animation: cloud3 8s linear infinite;
+}
+.wrapAll .house1 {
+  position: absolute;
+  width: 0.93333333rem;
+  bottom: 0.66666667rem;
+  left: 1.2rem;
+}
+.wrapAll .house2 {
+  position: absolute;
+  width: 0.86666667rem;
+  bottom: 0.86666667rem;
+  left: 3.2rem;
+}
+.wrapAll .house3 {
+  position: absolute;
+  width: 0.97333333rem;
+  bottom: 0.93333333rem;
+  left: 5.2rem;
+}
+.wrapAll .house4 {
+  position: absolute;
+  width: 0.97333333rem;
+  bottom: 0.8rem;
+  right: 1.73333333rem;
+}
+.wrapAll .land {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.wrapAll .windmill1 {
+  position: absolute;
+  width: 0.93333333rem;
+  height: 1.04rem;
+  left: 1.2rem;
+  bottom: 2.66666667rem;
+}
+.wrapAll .windmill1 .mill1 {
+  position: absolute;
+  width: 0.84rem;
+  animation: mill1 2s linear infinite;
+}
+.wrapAll .windmill1 .gan {
+  bottom: 0px;
+  left: 0.37333333rem;
+}
+.wrapAll .gan {
+  position: absolute;
+  width: 0.12rem;
+}
+.wrapAll .windmill2 {
+  position: absolute;
+  width: 0.96rem;
+  height: 1.13333333rem;
+  left: 3.13333333rem;
+  bottom: 2rem;
+}
+.wrapAll .windmill2 .mill2 {
+  width: 0.96rem;
+  animation: mill2 2s linear infinite;
+}
+.wrapAll .windmill2 .gan {
+  bottom: 0px;
+  left: 0.46666667rem;
+}
+.wrapAll .windmill3 {
+  position: absolute;
+  width: 0.96rem;
+  height: 1.13333333rem;
+  left: 5.2rem;
+  bottom: 5.33333333rem;
+}
+.wrapAll .windmill3 .mill3 {
+  width: 0.96rem;
+  animation: mill3 2s linear infinite;
+}
+.wrapAll .windmill3 .gan {
+  bottom: 0px;
+  left: 0.42666667rem;
+}
+.wrapAll .windmill4 {
+  position: absolute;
+  width: 0.96rem;
+  height: 1.2rem;
+  right: 1.73333333rem;
+  bottom: 4.53333333rem;
+}
+.wrapAll .windmill4 .mill4 {
+  width: 0.96rem;
+  animation: mill4 2s linear infinite;
+}
+.wrapAll .windmill4 .gan {
+  bottom: 0px;
+  left: 0.42666667rem;
+}
+.wrapAll .tree1 {
+  position: absolute;
+  width: 1.30666667rem;
+  bottom: 0.26666667rem;
+  left: 0.53333333rem;
+}
+.wrapAll .tree2 {
+  position: absolute;
+  width: 0.53333333rem;
+  bottom: 0.46666667rem;
+  left: 1.8rem;
+}
+.wrapAll .tree3 {
+  position: absolute;
+  width: 0.68rem;
+  bottom: 0.33333333rem;
+  left: 2.53333333rem;
+}
+.wrapAll .tree4 {
+  position: absolute;
+  width: 1.33333333rem;
+  bottom: 0.2rem;
+  right: 1.46666667rem;
+}
+.wrapAll .tree5 {
+  position: absolute;
+  width: 0.53333333rem;
+  bottom: 0.46666667rem;
+  right: 1rem;
+}
+.wrapAll .tree6 {
+  position: absolute;
+  width: 0.68rem;
+  bottom: 0.33333333rem;
+  right: 0.2rem;
+}
+@keyframes mill1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -webkit-transform-origin: 50% 55%;
+    transform: rotate(0deg);
+    transform-origin: 50% 55%;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -webkit-transform-origin: 50% 55%;
+    transform: rotate(360deg);
+    transform-origin: 50% 55%;
+  }
+}
+@keyframes mill2 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -webkit-transform-origin: 54% 45%;
+    transform: rotate(0deg);
+    transform-origin: 54% 45%;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -webkit-transform-origin: 54% 45%;
+    transform: rotate(360deg);
+    transform-origin: 54% 45%;
+  }
+}
+@keyframes mill3 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -webkit-transform-origin: 49% 40%;
+    transform: rotate(0deg);
+    transform-origin: 49% 40%;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -webkit-transform-origin: 49% 40%;
+    transform: rotate(360deg);
+    transform-origin: 49% 40%;
+  }
+}
+@keyframes mill4 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -webkit-transform-origin: 50% 52%;
+    transform: rotate(0deg);
+    transform-origin: 50% 52%;
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -webkit-transform-origin: 50% 52%;
+    transform: rotate(360deg);
+    transform-origin: 50% 52%;
+  }
+}
+@keyframes cloud1 {
+  0% {
+    -webkit-transform: translate(0px);
+    transform: translate(0px);
+  }
+  30% {
+    -webkit-transform: translate(2.66666667rem);
+    transform: translate(2.66666667rem);
+    opacity: 0;
+  }
+  31% {
+    -webkit-transform: translate(-8.66666667rem);
+    transform: translate(-8.66666667rem);
+  }
+  100% {
+    -webkit-transform: translate(0px);
+    transform: translate(0px);
+  }
+}
+@keyframes cloud2 {
+  0% {
+    -webkit-transform: translate(0px);
+    transform: translate(0px);
+  }
+  70% {
+    -webkit-transform: translate(8.66666667rem);
+    transform: translate(8.66666667rem);
+    opacity: 0;
+  }
+  71% {
+    -webkit-transform: translate(-2.66666667rem);
+    transform: translate(-2.66666667rem);
+  }
+  100% {
+    -webkit-transform: translate(0px);
+    transform: translate(0px);
+  }
+}
+@keyframes cloud3 {
+  0% {
+    -webkit-transform: translate(0px);
+    transform: translate(0px);
+  }
+  50% {
+    -webkit-transform: translate(7.33333333rem);
+    transform: translate(7.33333333rem);
+    opacity: 0;
+  }
+  51% {
+    -webkit-transform: translate(-5.33333333rem);
+    transform: translate(-5.33333333rem);
+  }
+  100% {
+    -webkit-transform: translate(0px);
+    transform: translate(0px);
+  }
+}
